@@ -1,11 +1,10 @@
-# Temp-Sensor-RaspberryPi
+# 🌡️ Projeto Sensor de Temperatura - Raspberry Pi Pico W
 
-🌡️ Projeto Estação IoT - Raspberry Pi Pico W
-Este é um projeto IoT (Internet das Coisas) baseado na Raspberry Pi Pico W, que exibe a temperatura em um display OLED, controla LEDs RGB WS2812B com base na temperatura e envia notificações para o Telegram.
+Este é um projeto IoT (Internet das Coisas) baseado na Raspberry Pi Pico W, que exibe a temperatura em um display OLED, controla LEDs RGB WS2812B com base na temperatura
 
 A temperatura é obtida através da API OpenWeatherMap, permitindo que o dispositivo forneça dados meteorológicos em tempo real para sua localização. 🌍📡
 
-📌 Funcionalidades
+ ## __📌 Funcionalidades__
 ✔ Wi-Fi integrado: Conecta-se automaticamente à rede Wi-Fi.
 ✔ Consulta a API OpenWeatherMap: Obtém a temperatura em tempo real.
 ✔ Exibição no OLED: A temperatura é exibida no display SSD1306.
@@ -20,15 +19,16 @@ A temperatura é obtida através da API OpenWeatherMap, permitindo que o disposi
 💡 Matriz de LEDs WS2812B (Neopixel)
 🌍 API OpenWeatherMap
 
-🚀 Como Configurar
+## 🚀 Como Configurar
 1️⃣ Instale as dependências
 Antes de compilar, certifique-se de que seu SDK do Raspberry Pi Pico está configurado corretamente.
 
 2️⃣ Crie o arquivo de configuração
 No diretório do projeto, crie um arquivo chamado config.h e adicione suas credenciais:
 
-📄 config.h
+>*📄 config.h*
 
+```
 #ifndef CONFIG_H
 #define CONFIG_H
 
@@ -44,12 +44,13 @@ No diretório do projeto, crie um arquivo chamado config.h e adicione suas crede
 #define WEATHER_PATH "/data/2.5/weather?q=" CITY "," COUNTRY "&appid=" API_KEY "&units=metric"
 
 #endif
+```
 
-Melhorias Futuras
+## __Melhorias Futuras__
 
-📍 GPS para localização automática na OpenWeatherMap,
-🌡️ Uso de um sensor físico de temperatura (ex: DHT22),
-📊 Dashboard para monitoramento via Web,
-⚙️ Implementação completa da requisição HTTP,
-⚙️ Envio de notificações por meio de um bot no telegram,
+- 📍 GPS para localização automática na OpenWeatherMap,
+- 🌡️ Uso de um sensor físico de temperatura (ex: DHT22),
+- 📊 Dashboard para monitoramento via Web,
+- ⚙️ Implementação completa da requisição HTTP,
+- ⚙️ Envio de notificações por meio de um bot no telegram,
 
