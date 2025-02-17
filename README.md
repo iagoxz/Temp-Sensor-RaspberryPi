@@ -46,9 +46,10 @@ No diretório do projeto, crie um arquivo chamado config.h e adicione suas crede
 #endif
 
 Melhorias Futuras
-📍 GPS para localização automática na OpenWeatherMap
-🌡️ Uso de um sensor físico de temperatura (ex: DHT22)
-📊 Dashboard para monitoramento via Web
-⚙️ Implementação completa da requisição HTTP
-⚙️ Envio de notificações por meio de um bot no telegram
+
+📍 GPS para localização automática na OpenWeatherMap,
+🌡️ Uso de um sensor físico de temperatura (ex: DHT22),
+📊 Dashboard para monitoramento via Web,
+⚙️ Implementação completa da requisição HTTP,
+⚙️ Envio de notificações por meio de um bot no telegram,
 
